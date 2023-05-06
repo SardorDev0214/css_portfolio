@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Css asoslari</title>
+        <link rel="stylesheet" href="./css/main.css">
+
+        <!-- Inheritance(meros olish)
+        <style>
+            body {
+                font-family: sans-serif;
+            }
+
+            section {
+                 color: red;
+            }
+
+            p {
+                color: green;
+            }
+
+        </style>
+
+        -->
+        <!-- Descendant selector
+        <style>
+            div p {
+                background-color: yellow;
+            }
+        </style>
+
+        -->
+        <!-- Child selector
+        <style>
+            div > p {
+                background-color: yellow;
+            }
+        </style>
+        -->
+        <!-- Adjacent sibling selector
+        <style>
+            div + p {
+                background-color: yellow;
+            }
+        </style>
+
+        -->
+        <!-- General sibling selector
+        <style>
+            div ~ p {
+                background-color: yellow;
+            }
+        </style>
+        -->
+        
+        <!-- Multiple classes
+        <style>
+            .text-red {
+                color: red;
+            }
+
+            .text-bold {
+                font-weight: bold;
+            } 
+
+            .text-green {
+                color: green;
+            }
+
+            .text-italic {
+                font-style: italic;
+            }
+        </style>
+        -->
+
+        <!-- Combined selector
+        <style>
+            h1 {
+                color: red;
+            }
+
+            h1.active {
+                background-color: red;
+                color: white;
+            }
+            a.active {
+                color: green;
+            }
+        </style>
+        -->
+
+        <!-- !important;
+        <style>
+            h1 {
+                color: red !important;
+            }
+
+            .heading {
+                color: green;
+            }
+        </style>
+        -->
+
+        <style>
+            .box {
+                background-color: red;
+                padding: 20px;
+                border-width: 5px;
+                border-style: solid;
+                border-color: blue;
+                margin: 30px;
+            }
+            .box2 {
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Inheritance(meros olish)
+        <section>
+            <div>
+                <h1>Heading1</h1>
+                <p>Paragraph1</p>
+            </div>
+        </section>
+        -->
+
+        <!-- Descendant selector
+        <h2>Descendant selector</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div>
+            <p>Paragraph 1: "div"ni ichida.</p>
+            <p>Paragraph 2: "div"ni ichida.</p>
+            <section>
+                <p>Paragraph 3: "div"ni ichida.</p>
+            </section>
+        </div>
+
+        <p>Paragraph 4: "div"ni ichida emas.</p>
+        <p>Paragraph 5: "div"ni ichida emas.</p>
+        -->
+
+        <!--Child selector
+        <h2>Child selector</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div>
+            <p>Paragraph 1: "div"ni ichida.</p>
+            <p>Paragraph 2: "div"ni ichida.</p>
+            <section>
+                <p>Paragraph 3: "div"ni ichida.</p>
+            </section>
+            <p>Paragraph 4: "div"ni ichida.
+        </div>
+
+        <p>Paragraph 5: "div"ni ichida emas.</p>
+        <p>Paragraph 6: "div"ni ichida emas.</p>
+        -->
+
+        <!-- Adjacent sibling selector
+        <h2>Adjacent selector</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div>
+            <p>Paragraph 1: "div"ni ichida.</p>
+            <p>Paragraph 2: "div"ni ichida.</p>
+        </div>
+
+        <p>Paragraph 3: "div"dan keyin</p>
+        <p>Paragraph 4: "div"dan keyin</p>
+
+        <div>
+            <p>Paragraph 5: "div"ni ichida</p>
+            <p>Paragraph 6: "div"ni ichida</p>
+        </div>
+
+        <p>Paragraph 7: "div"dan keyin</p>
+        <p>Paragraph 8: "div"dan keyin</p>
+        -->
+
+        <!--General sibling selector
+        <h2>General sibling selector</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+
+        <p>Paragraph 1: "div"ni ichida emas.</p>
+
+        <div>
+            <p>Paragraph 2: "div"ni ichida.</p>
+        </div>
+
+        <p>Paragraph 3: "div"dan keyin</p>
+        <h2>Any heading</h2>
+        <p>Paragraph 4: "div"dan keyin</p>
+        -->
+        
+        <!-- Multiple classes
+        <div class="text-red text-bold">Qizil va qalin ko'rinishidagi tekst</div>
+        <div class="text-green text-bold">Yashil va qalin ko'rinishidagi tekst</div>
+        <h1 class="text-green">Yashil ko'rinishidagi sarlavha</h1>
+        <h2 class="text-red text-italic"> Heading2</h2>
+        <h3 class="text-red text-green">Heading 3</h3>
+        -->
+
+        <!--Combined selector
+        <h1>Heading1</h1>
+        <h1 class="active">Heading2</h1>
+
+        <a href="#" class="active">Link1</a>
+        <a href="#">Link2</a>
+        -->
+
+        <!--!important;
+        <h1 class="heading">Heading1</h1>
+        -->
+
+        <div class="box">Box (quti) modelini amalda ko'rish </div>
+        <div class="box2"> Div block</div>
+    </body>
+</html>
