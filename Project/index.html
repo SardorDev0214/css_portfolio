@@ -101,6 +101,7 @@
         </style>
         -->
 
+        <!-- Box model
         <style>
             .box {
                 background-color: red;
@@ -114,6 +115,184 @@
                 background-color: yellow;
             }
         </style>
+        -->
+        
+        <!-- Margin collapsing
+        <style>
+            .box1 {
+                margin: 30px;
+            }
+
+            .box2 {
+                margin: 20px;
+            }
+        </style>
+        -->
+
+        <!-- Max-height
+        <style>
+            .paragraph-1 {
+                background-color: red;
+                max-height: 30px;
+                overflow: auto;
+            }
+        </style>   
+        -->
+
+        <!-- Min-height
+        <style>
+            .paragraph-1 {
+                background-color: red;
+                min-height: 50px;
+            }
+        </style> 
+        -->
+
+        <!-- Max-width
+        <style>
+            .box1 {
+               background-color: red;
+               width: 500px;
+            }
+
+            .box2 {
+                background-color: red;
+                max-width: 1000px;
+            }
+        </style>
+        -->
+
+        <!-- Min-width
+        <style>
+            .example {
+                background-color: red;
+                display: inline-block;
+                min-width: 200px;
+            }
+        </style>
+        -->
+
+        <!-- Display-block
+        <style>
+            .to-block {
+                background-color: red;
+                display: block;
+            }
+        </style>
+        -->
+
+        <!-- Display-inline
+        <style>
+            .to-inline {
+                background-color: blue;
+                display: inline;
+            }
+        </style>
+        -->
+
+        <!-- Display-inline-block
+        <style>
+            .to-inline-block {
+                background-color: red;
+                display: inline-block;
+                width: 200px;
+                height: 200px;
+            }
+        </style>
+        -->
+
+        <!-- Display-none
+        <style>
+            .to-none {
+                display: none;
+            }
+        </style>
+        -->
+
+        <!-- Vertical align
+        <style>
+            .container {
+                border: 1px solid black;
+                padding: 10px;
+            }
+
+            .container span {
+                display: inline-block;
+                vertical-align: bottom;
+            }
+
+            .box-1 {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+            }
+
+            .box-2 {
+                width: 100px;
+                height: 150px;
+                background-color: blue;
+            }
+
+            .box-3 {
+                width: 100px;
+                height: 50px;
+                background-color: yellow;
+            }
+        </style>
+        -->
+
+        <!-- Float left
+        <style>
+            .box {
+                display: inline-block;
+                background-color: red;
+                width: 100px; 
+                height: 200px;
+                float: left;
+                    
+            }
+        </style>
+        -->
+
+        <!-- Float right
+        <style>
+            .box {
+                display: inline-block;
+                background-color: red;
+                width: 100px; 
+                height: 200px;
+                float: right;
+                    
+            }
+        </style>
+        -->
+
+        <!--Psedo-hover-active
+        <style>
+            .heading-1:hover{
+                background-color: blue;
+                color: white;
+            }
+
+            .heading-1:active {
+                background-color: red;
+                color: white;
+            }
+        </style>
+        -->
+
+        <!--Grouping rules
+        <style>
+            .heading-1, .heading-2 {
+                background-color: red;
+                font-size: large;
+            }
+
+            .heading-2 {
+                border: 5px solid blue;
+            }
+        </style>
+        -->
     </head>
     <body>
         <!-- Inheritance(meros olish)
@@ -140,7 +319,7 @@
         <p>Paragraph 5: "div"ni ichida emas.</p>
         -->
 
-        <!--Child selector
+        <!-- Child selector
         <h2>Child selector</h2>
         <p>Lorem ipsum dolor sit amet.</p>
         <div>
@@ -176,7 +355,7 @@
         <p>Paragraph 8: "div"dan keyin</p>
         -->
 
-        <!--General sibling selector
+        <!-- General sibling selector
         <h2>General sibling selector</h2>
         <p>Lorem ipsum dolor sit amet.</p>
 
@@ -199,7 +378,7 @@
         <h3 class="text-red text-green">Heading 3</h3>
         -->
 
-        <!--Combined selector
+        <!-- Combined selector
         <h1>Heading1</h1>
         <h1 class="active">Heading2</h1>
 
@@ -211,7 +390,82 @@
         <h1 class="heading">Heading1</h1>
         -->
 
+        <!-- Box model
         <div class="box">Box (quti) modelini amalda ko'rish </div>
         <div class="box2"> Div block</div>
+        -->
+
+        <!-- Margin collapsing
+        <div class="box1">Box 1</div>
+        <div class="box2">Box 2</div>
+        -->
+
+        <!-- Max-height
+        <p class="paragraph-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim corrupti possimus mollitia quis alias modi fuga rerum ipsa quos officia? Neque cumque vel tenetur deleniti error est iure adipisci dolore, nemo blanditiis nulla consequatur modi minus eius eos non nihil repellat assumenda. Molestiae, quae perspiciatis repudiandae debitis accusantium excepturi totam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, vitae mollitia. Aspernatur omnis ea dolores, maxime quas esse, enim inventore dolorum, alias ipsam quaerat ex quod sint facilis magnam illum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia amet nostrum rem corporis! Animi molestias eligendi minima sapiente porro quae necessitatibus facere, optio vitae ea at magnam aperiam similique cumque.
+        </p>
+        -->
+
+        <!-- Min-height
+        <p class="paragraph-1">
+            Lorem ipsum dolor sit amet Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore sequi accusamus illo impedit, qui vitae delectus aliquam eos dignissimos illum labore dolor pariatur ratione error molestias adipisci molestiae iure laudantium.
+        </p>
+        -->
+
+        <!-- Max-width
+        <div class="box1">Elementning kengligi: 500px</div>
+        <div class="box2">Elementimiz ega bo'lishi mumkin bo'lgan eng katta kenglik: 1000px</div>
+        -->
+
+        <!-- Min-width
+        <span class="example">
+            Min-width uchun misol.  Min-width uchun misol. Min-width uchun misol. Min-width uchun misol.
+        </span>
+        -->
+
+        <!-- Display-block
+        <a href="#" class="to-block">"Block" elementga aylantirish</a>
+        -->
+
+        <!-- Display-inline
+        <h1 class="to-inline">"Inline" elementga aylantirish</h1>
+        -->
+
+        <!-- Display-inline-block
+        <span class="to-inline-block">"Inline block" elementga aylantirish</span>
+        -->
+
+        <!-- Display-none
+        <span class="to-none">Bu element ekranda ko'rinmaydi</span>
+        -->
+
+        <!--Vertical align
+        <div class="container">
+            <span class="box-1">Box1</span>
+            <span class="box-2">Box2</span>
+            <span class="box-3">Box3</span>
+        </div>
+        -->
+
+        <!-- Float left
+        <p>
+           <span class="box">Chap tomonga joylashgan element</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam cum dolores, aliquid, nihil aperiam esse harum optio nisi earum tempora odit velit quibusdam quaerat facilis reiciendis. Vel odio voluptate inventore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti omnis mollitia, qui nam voluptatibus cumque fuga! Dolorum magnam enim, rerum hic sapiente facilis ex reprehenderit deleniti necessitatibus exercitationem nisi et?Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nostrum illum laborum adipisci, praesentium modi nesciunt dolorum, impedit blanditiis illo accusantium commodi consectetur. Molestiae nobis tempore aliquid harum, at optio!
+        </p>
+        -->
+
+        <!-- Float right
+        <p>
+            <span class="box">O'ng tomonga joylashgan element</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam cum dolores, aliquid, nihil aperiam esse harum optio nisi earum tempora odit velit quibusdam quaerat facilis reiciendis. Vel odio voluptate inventore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti omnis mollitia, qui nam voluptatibus cumque fuga! Dolorum magnam enim, rerum hic sapiente facilis ex reprehenderit deleniti necessitatibus exercitationem nisi et?Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nostrum illum laborum adipisci, praesentium modi nesciunt dolorum, impedit blanditiis illo accusantium commodi consectetur. Molestiae nobis tempore aliquid harum, at optio! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor soluta necessitatibus voluptas veniam, totam natus optio, maxime eius quos quisquam ullam ipsa tempore sint perferendis mollitia excepturi, aut fugiat obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, atque eaque cupiditate alias aut tempore, facere perferendis quis itaque eveniet recusandae non explicabo sunt veritatis ea possimus perspiciatis debitis culpa! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, iusto cumque suscipit nihil rerum obcaecati quas quibusdam magnam distinctio, ut quia ducimus maiores numquam soluta alias laudantium vel assumenda nesciunt?
+         </p>
+        -->
+
+        <!-- Psedo-hover-active
+        <h1 class="heading-1">Ustiga sichqonchani olib keling</h1>
+        -->
+
+        <!--Grouping rules
+        <h1 class="heading-1">Grouping rules</h1>
+        <h1 class="heading-2">Bir xil css qiymat qabul qiladi</h1>
+        -->
     </body>
 </html>
