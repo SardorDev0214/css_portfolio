@@ -40,5 +40,5 @@ body {
 }
 
 .main-navigation__item.active a {
-    color: #efb6df;
+    color: red;
 }
