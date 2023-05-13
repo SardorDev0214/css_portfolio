@@ -87,7 +87,7 @@ body {
     color: #efb6df;
 }
 
-/* Home section */
+/* Home section styles */
 .home-section {
    padding: 100px 30px;
 }
@@ -145,7 +145,7 @@ body {
     margin-top: 30px;
 }
 
-/* Statistics section */xe
+/* Statistics section styles */xe
 .statistics {
     padding-top: 100px;
 }
@@ -171,7 +171,7 @@ body {
     font-weight: 300;
 }
 
-/* About me section */
+/* About me section styles */
 .about-me {
     padding: 100px 0;
 }
@@ -194,4 +194,39 @@ body {
 
 .about-me__action {
     margin-top: 40px;
+}
+
+/* Services section styles */
+.services {
+    padding-top: 100px;
+}
+
+.service-card {
+    display: inline-block;
+    width: 30%;
+    padding: 60px 30px;
+    background-color: #F8FAFF;
+    margin-right: 3%;
+    text-align: center;
+}
+
+.service-card__title {
+    color: #05364D;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.service-card__description {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #797979;
+}
+
+.service-card__link {
+    font-size: 13px;
+    font-weight: 500;
+    color: #05364D;
+    text-decoration: none;
 }
