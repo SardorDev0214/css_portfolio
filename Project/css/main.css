@@ -265,13 +265,13 @@ body {
 .client-item__name {
     font-size: 20px;
     margin-bottom: 4px;
-    color: #05364D;
+    color: inherit;
 }
 
 .client-item__position {
     font-size: 14px;
     font-weight: 300;
-    color: #5b6d75;
+    color: inherit
 }
 
 .client-item__review {
