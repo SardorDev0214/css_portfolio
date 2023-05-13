@@ -208,6 +208,7 @@ body {
     background-color: #F8FAFF;
     margin-right: 3%;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .service-card__title {
@@ -229,4 +230,14 @@ body {
     font-weight: 500;
     color: #05364D;
     text-decoration: none;
+}
+
+.service-card:hover {
+    background-color: #5f30ff;
+}
+
+.service-card:hover .service-card__title,
+.service-card:hover .service-card__description,
+.service-card:hover .service-card__link {
+    color: #FFFFFF;
 }
